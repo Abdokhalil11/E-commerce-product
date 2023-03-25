@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>E-commerce product page</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css file -->
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="links">
+          <img src="images/icon-menu.svg" alt="" class="bar" />
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <ul class="hide">
+            <img src="images/icon-close.svg" alt="" />
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="image">
+          <div class="cart" data-number="0">
+            <img src="images/icon-cart.svg" alt="cart icon" class="cart" />
+          </div>
+          <img src="images/image-avatar.png" alt="avatar icon" class="avatar" />
+          <div class="buy hide">
+            <p>Cart</p>
+            <div class="content">Your cart is empty.</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start home -->
+    <div class="home">
+      <div class="container">
+        <div class="images">
+          <div class="main-image">
+            <img src="images/image-product-1.jpg" alt="Sneaker Shose" />
+            <div class="next">
+              <img src="images/icon-next.svg" alt="" />
+            </div>
+            <div class="previous">
+              <img src="images/icon-previous.svg" alt="" />
+            </div>
+          </div>
+          <div class="other-image">
+            <img src="images/image-product-1.jpg" alt="thumnail" />
+            <img src="images/image-product-2.jpg" alt="thumnail" />
+            <img src="images/image-product-3.jpg" alt="thumnail" />
+            <img src="images/image-product-4.jpg" alt="thumnail" />
+          </div>
+        </div>
+        <div class="text">
+          <div class="company">Sneaker Company</div>
+          <div class="type">
+            Fall Limited Edition <br />
+            Sneakers
+          </div>
+          <div class="descript">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </div>
+          <div class="price">
+            <div class="main-price">
+              <span>$125.00</span>
+              <span>50%</span>
+            </div>
+            <div class="old-price">$250.00</div>
+          </div>
+          <div class="number-cart">
+            <div class="counter">
+              <div class="add"><img src="images/icon-plus.svg" alt="" /></div>
+              <div class="number">0</div>
+              <div class="less"><img src="images/icon-minus.svg" alt="" /></div>
+            </div>
+            <div class="addCart">
+              <img src="images/icon-cart.svg" alt="" />
+              Add to cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end home -->
+    <script src="main.js"></script>
+  </body>
+</html>
